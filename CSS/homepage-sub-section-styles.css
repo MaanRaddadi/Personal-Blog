@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#subscribe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: rgb(18, 52, 59);
+  background: linear-gradient(
+    270deg,
+    rgba(18, 52, 59, 1) 0%,
+    rgba(45, 84, 94, 1) 47%,
+    rgba(18, 52, 59, 1) 100%
+  );
+  border-top: 5px solid var(--night-shadow);
+  border-bottom: 5px solid var(--night-shadow);
+}
+
+#subscribe-header {
+  font-weight: 700;
+  font-size: 28px;
+  color: var(--sand-tan);
+  margin-top: 20px;
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 40px;
+}
+.sub-label {
+  color: var(--sand-shadow);
+  font-weight: 400;
+  font-size: 1rem;
+}
+.sub-input {
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  margin: 5px;
+  background-color: var(--sand-tan);
+  border: none;
+  border-radius: 5px;
+  color: var(--night-shadow);
+}
+
+.sub-btn {
+  margin-top: 10px;
+  border: none;
+  background-color: var(--night-shadow);
+  color: var(--sand-shadow);
+  height: 40px;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.sub-btn:hover {
+  cursor: pointer;
+  color: var(--white);
+  background-color: var(--sand-tan);
+}
+
+@media screen and (min-width: 2000px) {
+  #subscribe-header {
+    font-size: 4rem;
+  }
+  .sub-label {
+    font-size: 2.5rem;
+  }
+  .sub-input {
+    width: 400px;
+    height: 80px;
+    font-size: 2rem;
+  }
+
+  .sub-btn {
+    height: 80px;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  #subscribe-header {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  #subscribe-header {
+    font-size: 0.8rem;
+  }
+}

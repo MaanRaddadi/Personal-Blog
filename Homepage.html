@@ -1,70 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="UTF-8" />
     <title>Saudi Arabia Blog</title>
-    <link rel="stylesheet" href="CSS/Homepage-Style.css" />
+    <link rel="stylesheet" href="CSS/Homepage-style.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700;900&display=swap" rel="stylesheet" />
-</head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-
+  <body>
     <nav id="nav">
-        <img id="logo" src="/Assets/logo/saudi-blog-logo.png">
+      <img id="logo" src="/Assets/logo/saudi-blog-logo.png" />
 
-        <ul class="nav-list">
-            <li><a class="nav-link" href="#home" >Home</a></li>
-            <li><a class="nav-link" href="#blogs" >Blog Posts</a></li>
-            <li><a class="nav-link" href="#about" >About</a></li>
-            <li><a class="nav-link" href="#contact" >Contact</a></li>
-        </ul>
+      <ul class="nav-list">
+        <li><a class="nav-link" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#blogs">Blog Posts</a></li>
+        <li><a class="nav-link" href="#subscribe">Subscribe</a></li>
+       
+      </ul>
     </nav>
 
-<section id="home">
-    <div id="titles-container">
-    <h1>Saudi Blog</h1>
-   <p>Saudi Arabia Like you have never seen it before</p>
-   </div>
-    <div id="gallery-container">
-    
-        <div class="gallery-item one">
+    <section id="home">
+      <div id="gallery-container">
+        <div class="gallery-item one"></div>
+        <div class="gallery-item two"></div>
+        <div id="titles-container">
+          <h1>Saudi Blog</h1>
+          <p>Saudi Arabia Like you have never seen it before</p>
         </div>
-        <div class="gallery-item two">
-         </div>
-         <div class="gallery-item three">
-         </div>
-        </div>
-</section>
-   
-<section id="blogs">
-    <!-- first Blog Card-->
+        <div class="gallery-item three"></div>
+      </div>
+    </section>
+
+    <section id="blogs">
+      <!-- first Blog Card-->
       <div class="blog-card">
         <div class="blog-card-details">
-        <div class="blog-title"><h3>The Beauty of AlUla</h3></div>
-        <div class="blog-postdate"><p>Posted on: Monday,September 25</p></div>
-        <div class="blog-description"><p>A Glamorous Destination that Makes Your Eyes Sparkle ... AlUla, with its rich details, is a historical mine people seek from all over the world. On its ...</p></div>
-        <div class="blog-btn"><a href="blog-post.html">Read More</a></div>
-       </div>
-       <div class="blog-img"></div>
+          <div class="blog-title"><h3>The Beauty of AlUla</h3></div>
+          <div class="blog-postdate"><p>Posted on: Monday,September 25</p></div>
+          <div class="blog-description">
+            <p>
+              A Glamorous Destination that Makes Your Eyes Sparkle ... AlUla,
+              with its rich details, is a historical mine people seek from all
+              over the world. On its ...
+            </p>
+          </div>
+          <div class="blog-btn"><a href="blog-post.html">Read More</a></div>
+        </div>
+        <div class="blog-img"></div>
       </div>
       <!-- Second Blog Card-->
       <div class="blog-card b2">
         <div class="blog-card-details">
-        <div class="blog-title"><h3>Riyadh: The Heartbeat of Saudi Arabia</h3></div>
-        <div class="blog-postdate"><p>Posted on: Monday,September 24</p></div>
-        <div class="blog-description"><p>Nestled amidst the vast Arabian Desert, Riyadh, the capital of Saudi Arabia, stands as a modern oasis of culture, tradition, and progress. As the political, economic, and cultural center of this fascinating nation, Riyadh is a city that...</p></div>
-        <div class="blog-btn"><a href="blog-post.html">Read More</a></div>
-       </div>
-       <div class="blog-img img2"></div>
+          <div class="blog-title">
+            <h3>Riyadh: The Heartbeat of Saudi Arabia</h3>
+          </div>
+          <div class="blog-postdate"><p>Posted on: Monday,September 24</p></div>
+          <div class="blog-description">
+            <p>
+              Nestled amidst the vast Arabian Desert, Riyadh, the capital of
+              Saudi Arabia, stands as a modern oasis of culture, tradition, and
+              progress. As the political, economic, and cultural center of this
+              fascinating nation, Riyadh is a city that...
+            </p>
+          </div>
+          <div class="blog-btn"><a href="blog-post.html">Read More</a></div>
+        </div>
+        <div class="blog-img img2"></div>
       </div>
-    
-</section>
+    </section>
 
+    <section id="subscribe">
+      <h3 id="subscribe-header">
+        Don't miss out on any new blogs subscribe now!
+      </h3>
+      <form class="subscribe-form">
+        <label class="sub-label" for="name"> Name: </label>
+        <input class="sub-input" name="name" type="text" placeholder="Mark" />
+        <label class="sub-label" for="email"> Email: </label>
+        <input  class="sub-input" name="email" type="email" placeholder="Example@blog.co" />
+        <input class="sub-btn" type="submit" value="Subscribe"/>
+      </form>
+    </section>
 
-</body>
+    <footer id="homepage-footer">
+        <img id="footer-logo" src="/Assets/logo/saudi-blog-logo.png">
+        <p>Copyright © 2023 SaudiBlog, Inc.</p>
+        <ul class="footer-list">
+       <li><a class="footer-link" href="">Legal Stuff</a></li> 
+       <div id="divder"></div>
+       <li><a class="footer-link" href="">Privacy Policy</a></li> 
+</ul>
+    </footer>
+  </body>
 </html>
