@@ -16,8 +16,7 @@
     rgba(45, 84, 94, 1) 47%,
     rgba(18, 52, 59, 1) 100%
   );
-  border-top: 5px solid var(--night-shadow);
-  border-bottom: 5px solid var(--night-shadow);
+  border-top: 10px solid var(--night-shadow);
 }
 
 #subscribe-header {
