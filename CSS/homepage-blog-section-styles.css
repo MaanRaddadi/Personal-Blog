@@ -163,3 +163,23 @@
     font-size: 1.5rem;
   }
 }
+
+@media screen and (max-width: 426px) {
+  .blog-card {
+    flex-direction: column;
+  }
+  .blog-img {
+    width: auto;
+  }
+  .blog-card-details {
+    margin-top: 10px;
+    margin: 5px;
+  }
+
+  .blog-btn {
+    margin-bottom: 20px;
+  }
+  #blogs {
+    padding: 5px;
+  }
+}
