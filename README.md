@@ -10,7 +10,7 @@ Along with webpage design considerations, you'll work to appropriately structure
 
 ## Links:-
 
-- Live Site Home Page: [Hompage](https://maanraddadi.github.io/Saudi-Blog/pages/Homepage.html)
+- Live Site Home Page: [Hompage](https://maanraddadi.github.io/Saudi-Blog/pages/index.html)
 - Live Site Blog Post Page: [Blog Post](https://maanraddadi.github.io/Saudi-Blog/pages/blog-post.html)
 - github repo: [Repo](https://github.com/MaanRaddadi/Saudi-Blog)
 
