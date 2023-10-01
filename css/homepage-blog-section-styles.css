@@ -30,7 +30,7 @@
 }
 
 .blog-img {
-  background-image: url("/assets/images/1_Hegra_AlUla_Saudi_Arabia.jpg");
+  background-image: url("../assets/images/1_Hegra_AlUla_Saudi_Arabia.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -77,7 +77,7 @@
 }
 
 .img2 {
-  background-image: url("/assets/images/Gltlnipw-boulevard.jpg");
+  background-image: url("../assets/images/Gltlnipw-boulevard.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
