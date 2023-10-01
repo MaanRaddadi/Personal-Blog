@@ -1,6 +1,6 @@
-@import url(../CSS/homepage-blog-section-styles.css);
-@import url(../CSS/homepage-sub-section-styles.css);
-@import url(../CSS/Hompage-footer-styles.css);
+@import url(homepage-blog-section-styles.css);
+@import url(homepage-sub-section-styles.css);
+@import url(Hompage-footer-styles.css);
 :root {
   --sand-tan: #e1b382;
   --sand-shadow: #c89666;
