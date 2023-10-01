@@ -175,7 +175,17 @@ i {
   color: var(--white);
 }
 
+#quote {
+  text-align: center;
+  margin: 10px;
+  color: var(--sand-tan);
+  font-size: 18px;
+}
+
 @media screen and (min-width: 2000px) {
+  #blog-post-header {
+    padding-top: 30px;
+  }
   .blog-post-img {
     height: 500px;
   }
@@ -217,12 +227,21 @@ i {
   }
 
   #return-btn i {
-    font-size: 5rem;
+    font-size: 3rem;
+    margin: 0;
+  }
+
+  #quote {
+    font-size: 1.5rem;
   }
 }
 
 @media screen and (max-width: 1440px) and (min-width: 100px) {
   #author {
     margin: 10px;
+  }
+
+  #blog-post-header {
+    padding-top: 0px;
   }
 }
