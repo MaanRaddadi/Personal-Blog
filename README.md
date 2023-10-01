@@ -14,7 +14,7 @@ Along with webpage design considerations, you'll work to appropriately structure
 - Live Site Blog Post Page: [Blog Post](https://maanraddadi.github.io/Saudi-Blog/blog-post.html)
 - github repo: [Repo](https://github.com/MaanRaddadi/Saudi-Blog)
 
-#Screenshots:
+## Screenshots:
 
 #### Desktop homepage
 
