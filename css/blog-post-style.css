@@ -159,6 +159,10 @@ body {
   color: var(--white);
 }
 
+i {
+  color: #e1b382;
+}
+
 @media screen and (min-width: 2000px) {
   .blog-post-img {
     height: 500px;
