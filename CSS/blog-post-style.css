@@ -1,11 +1,5 @@
 @import url(../CSS/Homepage-style.css);
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
 body {
   background: rgb(18, 52, 59);
   background: linear-gradient(
