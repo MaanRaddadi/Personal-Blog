@@ -10,11 +10,11 @@ Along with webpage design considerations, you'll work to appropriately structure
 
 ## Links:-
 
-- Live Site Home Page: [Hompage] (https://maanraddadi.github.io/Saudi-Blog/Homepage.html)
-- Live Site Blog Post Page: [Blog-Post] (https://maanraddadi.github.io/Saudi-Blog/blog-post.html)
-- github repo: [Repo] (https://github.com/MaanRaddadi/Saudi-Blog)
+- Live Site Home Page: [Hompage](https://maanraddadi.github.io/Saudi-Blog/Homepage.html)
+- Live Site Blog Post Page: [Blog Post](https://maanraddadi.github.io/Saudi-Blog/blog-post.html)
+- github repo: [Repo](https://github.com/MaanRaddadi/Saudi-Blog)
 
-#Screenshots:
+## Screenshots:
 
 #### Desktop homepage
 
@@ -28,11 +28,11 @@ Along with webpage design considerations, you'll work to appropriately structure
 
 #### Images from :
 
-- [Visitsaudi] (https://www.visitsaudi.com/en)
-- [unsplash] (https://unsplash.com)
-- [hotelsinheaven] (https://www.hotelsinheaven.com)
-- [pngtree] (https://www.pngtree.com)
+- [Visitsaudi](https://www.visitsaudi.com/en)
+- [unsplash](https://unsplash.com)
+- [hotelsinheaven](https://www.hotelsinheaven.com)
+- [pngtree](https://www.pngtree.com)
 
 #### Logo
 
-- [logo] (https://logo.com)
+- [logo](https://logo.com)
