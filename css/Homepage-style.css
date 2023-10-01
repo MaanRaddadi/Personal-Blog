@@ -69,13 +69,13 @@
   max-width: 100%;
 }
 .one {
-  background-image: url("..//assets/images/ALULA.jpeg");
+  background-image: url("/assets/images/ALULA.jpeg");
   background-size: cover;
   background-position: center;
 }
 
 .two {
-  background-image: url("assets/images/Riyadh.jpg");
+  background-image: url("/assets/images/Riyadh.jpg");
   background-size: cover;
   background-position: center;
   grid-column: 2;
